@@ -660,6 +660,34 @@ span.add-on{
 
 
 
+
+.form-range::-webkit-slider-thumb {
+  width: 1rem;
+  height: 1rem;
+  margin-top: -0.25rem;
+  background-color: #4CAF50; /* Success green */
+  border: 0;
+  border-radius: 1rem;
+  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.form-range::-webkit-slider-thumb:active {
+  background-color: #A5D6A7; /* Light green for active state */
+}
+
+.slider .slider-selection {
+  color: #fff;
+  background-color: #4CAF50; /* Success green */
+  background-image: linear-gradient(to bottom, rgba(76, 160, 80, 1), rgba(139, 195, 74, 0.8)); /* Gradient of success green to light green */
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+
+
 .btn {
   display: inline-block;
   font-weight: 400;

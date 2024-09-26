@@ -10,6 +10,8 @@
 - Delete blue colors from whole interface, i hate blue for no reason
 - Flatten buttons into Mushroom theme from home assistant
 
+
+
 # How to install
 - Go to plugin manager in octoprint
 - Click on get more button at the top

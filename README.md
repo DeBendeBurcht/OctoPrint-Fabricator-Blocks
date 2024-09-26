@@ -1,3 +1,7 @@
+# This Fork is intended for personal use! i cant make it prrivate because its a fork i think
+
+
+
 # BLOCKS
 
 - A plugin for Octoprint that offers a different UI and some additional functionalities.

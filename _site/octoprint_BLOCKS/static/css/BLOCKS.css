@@ -596,7 +596,7 @@
 		/* It only displays the gradient when the printer is connected */
 	input[type="range"]:enabled::-webkit-slider-runnable-track{
 		-webkit-appearance: none;
-		background: linear-gradient(270deg, rgba(244,0,0,1) 0%, rgba(255,149,0,1) 25%, rgba(255,222,0,1) 43%, rgba(198,255,0,1) 59%, rgba(121,255,0,1) 74%, rgba(0,255,29,1) 100%);
+		background: linear-gradient(270deg, rgba(244,66,54,1) 0%, rgba(249,136,56,1) 25%, rgba(251,198,56,1) 43%, rgba(255,235,60,1) 59%, rgba(212,217,65,1) 74%, rgba(78,161,81,1) 100%);
 	}
 
 

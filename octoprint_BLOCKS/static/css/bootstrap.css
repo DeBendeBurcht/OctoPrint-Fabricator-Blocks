@@ -3055,33 +3055,33 @@ textarea.form-control-lg {
 }
 
 .btn-info {
-  color: #000;
-  background-color: #0dcaf0; /* Retained blue for info */
-  border-color: #0dcaf0; /* Retained blue for border */
+  color: #000; /* Text color */
+  background-color: #28a745; /* Green for info */
+  border-color: #28a745; /* Green for border */
 }
 .btn-info:hover {
-  color: #000;
-  background-color: #31d2f2; /* Retained lighter blue for hover */
-  border-color: #25cff2; /* Retained lighter blue for border */
+  color: #fff; /* White text on hover */
+  background-color: #218838; /* Darker green for hover */
+  border-color: #1e7e34; /* Darker green for border */
 }
 .btn-check:focus + .btn-info, .btn-info:focus {
-  color: #000;
-  background-color: #31d2f2; /* Retained lighter blue for focus */
-  border-color: #25cff2; /* Retained lighter blue for border */
-  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5); /* Retained shadow color */
+  color: #000; /* Text color */
+  background-color: #218838; /* Darker green for focus */
+  border-color: #1e7e34; /* Darker green for border */
+  box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.5); /* Green shadow color */
 }
 .btn-check:checked + .btn-info, .btn-check:active + .btn-info, .btn-info:active, .btn-info.active, .show > .btn-info.dropdown-toggle {
-  color: #000;
-  background-color: #3dd5f3; /* Retained blue for active */
-  border-color: #25cff2; /* Retained lighter blue for border */
+  color: #000; /* Text color */
+  background-color: #28a745; /* Green for active */
+  border-color: #218838; /* Darker green for border */
 }
 .btn-check:checked + .btn-info:focus, .btn-check:active + .btn-info:focus, .btn-info:active:focus, .btn-info.active:focus, .show > .btn-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5); /* Retained shadow color */
+  box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.5); /* Green shadow color */
 }
 .btn-info:disabled, .btn-info.disabled {
-  color: #000;
-  background-color: #0dcaf0; /* Retained blue for disabled */
-  border-color: #0dcaf0; /* Retained blue for border */
+  color: #000; /* Text color */
+  background-color: #28a745; /* Green for disabled */
+  border-color: #28a745; /* Green for border */
 }
 
 .btn-warning {

@@ -751,6 +751,13 @@ span.add-on{
   opacity: 0.5;
 }
 
+a {
+  color: #4CAF50; /* mush-rgb-green */
+  text-decoration: underline;
+}
+a:hover {
+  color: #8BC34A; /* mush-rgb-light-green */
+}
 
 .btn {
   display: inline-block;

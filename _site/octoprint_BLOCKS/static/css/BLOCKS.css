@@ -65,9 +65,10 @@
 	    padding: 5px;
 	}
 	.BLOCKSMainContainer{
-		padding-left: 0px;
-		padding-right: 0px;
+		padding-left: 20px; /* Changed padding a tiny bit, it was a little cramped*/
+		padding-right: 20px; /* Changed padding a tiny bit, it was a little cramped*/
 		height: -webkit-fill-available;
+		max-width: 1200px;   /* Set a max width for the container */
 		background-color: var(--primary-color);
 		color: var(--font-color);
 	}

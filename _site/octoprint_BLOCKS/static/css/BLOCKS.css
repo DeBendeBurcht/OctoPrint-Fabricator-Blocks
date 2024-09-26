@@ -1,40 +1,40 @@
 [data-theme= "dark"]{
-	--primary-color: rgb(86,86,86);
-	--bg-color: rgb(41, 43, 42);
-	--border-color: rgb(41,43,42);
-	--font-color: rgb(255,255,255);
-	--inverted-font: rgb( 0 0 0);
-	--navbar-color: #F5F5F5;
-	--shadow-text: 0 1px rgb(86,86,86);
-	--switch-color: rgb(62, 62, 62);
-	--graph-image: url(../img/Blocks_VECTORIZADOBRANCO.png);
-	--hover-color: rgb(180, 180, 180);
-	--bs-table-hover-color: rgb(255 255 255) !important;
-	--bs-table-hover-bg: rgb(224 223 223 / 27%) !important;
-	--bs-table-accent-bg: rgb(224 223 223 / 27%) !important;
+        --primary-color: rgb(61, 75, 62); /* Updated to muted green */
+        --bg-color: rgb(30, 30, 30); /* Darker background for better contrast */
+        --border-color: rgb(41, 43, 42); /* Kept as is */
+        --font-color: rgb(250, 255, 248); /* Light text for readability */
+        --inverted-font: rgb(255, 255, 255); /* Kept as is */
+        --navbar-color: rgb(144, 238, 144); /* Light green for navbar */
+        --shadow-text: 0 1px rgb(61, 75, 62); /* Updated shadow color */
+        --switch-color: rgb(62, 62, 62); /* Kept as is */
+        --graph-image: url(../img/Blocks_VECTORIZADOBRANCO.png); /* Kept as is */
+        --hover-color: rgb(119, 119, 119); /* Slightly lighter for consistency */
+        --bs-table-hover-color: rgb(255, 255, 255) !important; /* Kept as is */
+        --bs-table-hover-bg: rgb(224, 223, 223 / 27%) !important; /* Kept as is */
+        --bs-table-accent-bg: rgb(224, 223, 223 / 27%) !important; /* Kept as is */
 }
 [data-theme="light"]{
-	--primary-color: rgb(255,255,255);
-	--bg-color: #F5F5F5;
-	--border-color: #F5F5F5;
-	--font-color: rgb(86,86,86);
-	--inverted-font: rgb(0 0 0);
-	--navbar-color: #333333;
-	--shadow-text: 0 1px #ccc;
-	--switch-color:rgb(218, 218, 218);
-	--graph-image: url(../img/Blocks_VECTORIZADOpreto.png);
-	--hover-color: rgb(236 236 236);
-	--bs-table-hover-color: rgb(0 0 0) !important;
+        --primary-color: rgb(255, 255, 255); /* Kept as is */
+        --bg-color: rgb(255, 255, 255); /* Kept as is */
+        --border-color: rgb(86, 86, 86); /* Kept as is */
+        --font-color: rgb(61, 75, 62); /* Updated to darker color */
+        --inverted-font: rgb(0, 0, 0); /* Kept as is */
+        --navbar-color: rgb(144, 238, 144); /* Light green for navbar */
+        --shadow-text: 0 1px rgb(61, 75, 62); /* Updated shadow color */
+        --switch-color: rgb(218, 218, 218); /* Kept as is */
+        --graph-image: url(../img/Blocks_VECTORIZADOpreto.png); /* Kept as is */
+        --hover-color: rgb(236, 236, 236); /* Kept as is */
+        --bs-table-hover-color: rgb(0, 0, 0) !important; /* Kept as is */
   --bs-table-hover-bg: rgb(224 223 223 / 27%) !important;
 }
 
 [switch-color="red"]{
-	--bg-color: rgb(255,59,59);
-	--border-color: rgb(255,59,59);
+        --bg-color: rgb(244, 67, 54); /* Using defined danger color */
+        --border-color: rgb(244, 67, 54); /* Consistent border color */
 }
 [switch-color="green"]{
-	--bg-color: rgb(85,247,92);
-	--border-color: rgb(85,247,92);
+        --bg-color: rgb(76, 160, 80); /* Using defined success color */
+        --border-color: rgb(76, 160, 80); /* Consistent border color */
 }
 
 /* @media (min-width: 1420px){ */

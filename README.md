@@ -1,4 +1,4 @@
-# This Fork is intended for personal use! i cant make it private because its a fork i think
+### This Fork is intended for personal use! i cant make it private because its a fork i think
 
 # Changes made:
 - Updated logos and images to follow my design

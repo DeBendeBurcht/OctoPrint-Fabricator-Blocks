@@ -47,8 +47,6 @@
 		font-family: 'Montserrat' !important;
 		line-height: 25px;
 		font-size: 14px;
-		padding-left: 2rem; /* Increase left padding */
-    		padding-right: 2rem; /* Increase right padding */
 	}
 	.clearfix{
 		overflow: auto;

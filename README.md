@@ -7,7 +7,8 @@
 
 ## Changes to be implemented:
 - change blocks layout, its pretty but could be improved.
-- Delete blue colors from whole interface, i hate blue for no reason
+- update padding, and add better mobile version
+- Delete the last blue colors from the interface, i hate blue for no reason
 - Flatten buttons into Mushroom theme from home assistant
 
 

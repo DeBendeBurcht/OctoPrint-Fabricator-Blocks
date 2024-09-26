@@ -657,6 +657,109 @@ a:hover {
 span.add-on{
 	color: rgb(86,86,86);
 }
+
+
+
+
+
+
+.btn-primary {
+  color: #fff; /* Text color remains white */
+  background-color: #4CAF50; /* Set to a green color */
+  border-color: #4CAF50; /* Set to the same green for border */
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #388E3C; /* Darker green for hover */
+  border-color: #388E3C; /* Same darker green for border */
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: #388E3C; /* Darker green for focus */
+  border-color: #388E3C; /* Same darker green for border */
+  box-shadow: 0 0 0 0.25rem rgba(76, 160, 80, 0.5); /* Adjusted shadow color */
+}
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #388E3C; /* Darker green for active */
+  border-color: #388E3C; /* Same darker green for border */
+}
+.btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(76, 160, 80, 0.5); /* Adjusted shadow color */
+}
+.btn-primary:disabled, .btn-primary.disabled {
+  color: #fff;
+  background-color: #4CAF50; /* Light green for disabled state */
+  border-color: #4CAF50; /* Same light green for border */
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6C757D; /* Retained gray for secondary */
+  border-color: #6C757D; /* Retained gray for border */
+}
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #5C636A; /* Retained gray for hover */
+  border-color: #5C636A; /* Retained gray for border */
+}
+.btn-check:focus + .btn-secondary, .btn-secondary:focus {
+  color: #fff;
+  background-color: #5C636A; /* Retained gray for focus */
+  border-color: #5C636A; /* Retained gray for border */
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5); /* Retained shadow color */
+}
+.btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #5C636A; /* Retained gray for active */
+  border-color: #5C636A; /* Retained gray for border */
+}
+.btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5); /* Retained shadow color */
+}
+.btn-secondary:disabled, .btn-secondary.disabled {
+  color: #fff;
+  background-color: #6C757D; /* Retained gray for disabled state */
+  border-color: #6C757D; /* Retained gray for border */
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #76c7a1; /* Light green */
+  border-color: #76c7a1; /* Light green */
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #5bb75b; /* Slightly darker green for hover */
+  border-color: #4cae4c; /* Slightly darker green for border */
+}
+.btn-check:focus + .btn-success, .btn-success:focus {
+  color: #fff;
+  background-color: #5bb75b; /* Slightly darker green for focus */
+  border-color: #4cae4c; /* Slightly darker green for border */
+  box-shadow: 0 0 0 0.25rem rgba(118, 199, 161, 0.5); /* Adjusted shadow color */
+}
+.btn-check:checked + .btn-success, .btn-check:active + .btn-success, .btn-success:active, .btn-success.active, .show > .btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: #4cae4c; /* Dark green for active */
+  border-color: #3e9b3f; /* Darker green for border */
+}
+.btn-check:checked + .btn-success:focus, .btn-check:active + .btn-success:focus, .btn-success:active:focus, .btn-success.active:focus, .show > .btn-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(118, 199, 161, 0.5); /* Adjusted shadow color */
+}
+.btn-success:disabled, .btn-success.disabled {
+  color: #fff;
+  background-color: #76c7a1; /* Light green for disabled */
+  border-color: #76c7a1; /* Light green for border */
+}
+
+
+
+
+
+
+
 .btn{
 	line-height: 20px !important;
 	height: auto;

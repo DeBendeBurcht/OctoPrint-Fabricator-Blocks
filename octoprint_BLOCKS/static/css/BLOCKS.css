@@ -665,7 +665,7 @@ span.add-on{
 }
 .btn-check:focus+.btn, .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgb(13 110 253 / 25%) !important;
+  box-shadow: 0 0 0 0.2rem rgb(76 160 80 / 25%) !important;
   border-radius: 4px !important;
 }
 .h1{

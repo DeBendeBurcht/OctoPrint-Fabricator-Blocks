@@ -1,6 +1,21 @@
-# This Fork is intended for personal use! i cant make it prrivate because its a fork i think
+# This Fork is intended for personal use! i cant make it private because its a fork i think
 
+# Changes made:
+- Updated logos and images to follow my design
+- Changed font to poppins Extra Light
+- Added custom colors that i use in my home, color scheme is "Old Money Nature Green" (created it myself)
 
+## Changes to be implemented:
+- change blocks layout, its pretty but could be improved.
+- Delete blue colors from whole interface, i hate blue for no reason
+- Flatten buttons into Mushroom theme from home assistant
+
+# How to install
+- Go to plugin manager in octoprint
+- Click on get more button at the top
+- fill in password (uggh work)
+- enter this url: https://github.com/DeBendeBurcht/OctoPrint-Fabricator-Blocks/archive/main.zip
+- Please enjoy, i dont think anyone will ever install this besides me, but i hope you like it, if you have any ideas hit me up in the repo
 
 # BLOCKS
 
